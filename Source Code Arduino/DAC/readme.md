@@ -33,51 +33,6 @@ Data ditampilkan melalui Serial Monitor setiap 500 ms.
 | Potensiometer | GND | Ground |
 | Output PWM | D9 | Keluaran sinyal PWM |
 
-## Kode Program
-
-```cpp
-#include <Arduino.h>
-
-const int pinPotensio = A0;
-const int pinPWM = 9;
-
-unsigned long timerSerial = 0;
-const long intervalSerial = 500;
-
-void setup() {
-  Serial.begin(9600);
-  pinMode(pinPWM, OUTPUT);
-}
-
-void loop() {
-  // 1. Baca input analog (ADC 10-bit: 0-1023)
-  int nilaiADC = analogRead(pinPotensio);
-
-  // 2. Konversi ADC menjadi PWM 8-bit (0-255)
-  int nilaiPWM = nilaiADC / 4;
-
-  // 3. Keluarkan sinyal PWM
-  analogWrite(pinPWM, nilaiPWM);
-
-  // 4. Tampilkan data setiap 500 ms
-  if (millis() - timerSerial >= intervalSerial) {
-    float estimasiTegangan = (nilaiPWM / 255.0) * 5.0;
-
-    Serial.print("ADC: ");
-    Serial.print(nilaiADC);
-
-    Serial.print(" | PWM: ");
-    Serial.print(nilaiPWM);
-
-    Serial.print(" | Estimasi Voltase Vout: ");
-    Serial.print(estimasiTegangan, 2);
-    Serial.println(" V");
-
-    timerSerial = millis();
-  }
-}
-```
-
 ## Cara Kerja Program
 
 1. **Pembacaan ADC:** Arduino membaca tegangan dari potensiometer melalui pin A0. Hasil pembacaan memiliki rentang 0–1023.
@@ -100,13 +55,6 @@ Duty cycle menunjukkan persentase waktu sinyal berada pada kondisi HIGH dalam sa
 | 192 | ≈ 75% | ≈ 3,76 V |
 | 255 | 100% | 5 V |
 
-Tegangan rata-rata secara ideal dapat diperkirakan menggunakan rumus:
-
-\[
-V_{out}=\frac{\text{PWM}}{255}\times V_{CC}
-\]
-
-Dengan asumsi \(V_{CC}=5\text{ V}\), nilai PWM 128 menghasilkan estimasi tegangan rata-rata sekitar 2,51 V.
 
 **Catatan:** Tegangan pada pin D9 tetap berupa pulsa digital HIGH dan LOW, bukan tegangan analog konstan. Untuk memperoleh tegangan yang lebih halus, sinyal PWM dapat dilewatkan melalui rangkaian low-pass filter RC.
 
