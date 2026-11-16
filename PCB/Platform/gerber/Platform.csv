@@ -1,0 +1,20 @@
+Reference;Qty;Value;Footprint;Link
+A2;1;Clone_Pro_Mini_Socket;PCM_arduino-library:Clone_Pro_Mini_Socket;https://tk.tokopedia.com/ZSgfkHmkr/
+D1,D2;2;LED;LED_THT:LED_D5.0mm;
+J1;1;Program;Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical;
+J2,J3;2;Conn_01x02_Pin;TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal;
+J4;1;Pin_Analog;Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical;
+J5;1;PIN_RTC;DS3231:DS3231;
+J6;1;MICRO SDCARD;modulsdcard:modul sdcard;
+J7;1;Pin_LCD;LCD-16X2:MODULE_LCD-16X2;
+J8;1;Pin_SPI_1;Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical;
+J9;1;Pin_I2C_eksternal;Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;
+J10;1;Pin_SERIAL;Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;
+J12;1;PWR External;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+PS1;1;LM2596;MC00100:CONV_MC00100;
+R1,R2;2;220Ω;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+R3,R4;2;1kΩ;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+R5,R6;2;4.7k;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+SW1,SW2;2;SW_Push;Button_Switch_THT:SW_PUSH_6mm;
+SW3;1;RST;Button_Switch_THT:SW_PUSH_6mm;
+U2;1;MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER;MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER:MODULE_MAX485_MODULE_5V_LOGIC_TLL_TO_RS-485_CONVERTER;

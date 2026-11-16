@@ -1,0 +1,23 @@
+Reference,Qty,Value,Footprint
+"C1,C4,C5",3,10 µF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+"C2,C7,C8,C9",4,100 nF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+C3,1,1 µF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+C6,1,1000 µF,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm
+J1,1,PIN_FLASH,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+J2,1,Battery Conn,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+MicroSD_Adapter1,1,,modulsdcard:modul sdcard
+NEO-M8N_Module1,1,,GPS:Untitled
+Q1,1,2N7002,Package_TO_SOT_SMD:SOT-23
+Q2,1,AO3401A,Package_TO_SOT_SMD:SOT-23
+"R1,R2,R3",3,10k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+"R4,R5",2,10 kΩ,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+"R7,R10",2,100 kΩ,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+"R8,R9",2,4.7 kΩ,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+SW1,1,SW_SPST,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+SW2,1,SW_BOOT,Button_Switch_THT:SW_PUSH_6mm
+SW3,1,SW_RESET,Button_Switch_THT:SW_PUSH_6mm
+U1,1,ESP32-C3-MINI-1-N4,ESP32-C3-MINI-1-N4:XCVR_ESP32-C3-MINI-1-N4
+U3,1,HT7333,HT7333:IC_HT7333
+U4,1,SIM800L-CORE,SIM800L-Core-Module-KiCad-Footprint-main:SIM800L-CORE
+U5,1,DS3231M,DS3231:DS3231
+U6,1,DS18B20,Connector:FanPinHeader_1x03_P2.54mm_Vertical

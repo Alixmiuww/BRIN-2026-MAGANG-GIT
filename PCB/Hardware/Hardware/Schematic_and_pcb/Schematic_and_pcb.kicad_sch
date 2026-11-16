@@ -1,0 +1,1102 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "77dd31a3-b022-4ccc-b345-d329c750079c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 83.82 60.96) (xy 83.82 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00feba57-14a6-4cf4-a6cb-b1713877ea0a")
+	)
+	(wire
+		(pts
+			(xy 77.47 36.83) (xy 90.17 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fc76c3-af3c-49f6-9aa2-c005f15a0e86")
+	)
+	(wire
+		(pts
+			(xy 43.18 62.23) (xy 43.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d58a249-78fe-4601-be86-12757e1fa477")
+	)
+	(wire
+		(pts
+			(xy 77.47 25.4) (xy 90.17 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e159aec-c2d0-485d-a837-2227ddb2c981")
+	)
+	(wire
+		(pts
+			(xy 77.47 60.96) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9f10ef-05ad-4b83-b7f4-007ba40f250b")
+	)
+	(wire
+		(pts
+			(xy 86.36 57.15) (xy 86.36 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a96cfc-5a18-4f6a-a33f-9e235b1e740e")
+	)
+	(wire
+		(pts
+			(xy 77.47 33.02) (xy 90.17 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9d5c17-f3d2-4e1a-a0ce-923a5f4c913e")
+	)
+	(wire
+		(pts
+			(xy 77.47 48.26) (xy 90.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4143be-3f35-4cdb-8794-a9da2f99e190")
+	)
+	(wire
+		(pts
+			(xy 77.47 52.07) (xy 90.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e0c828-c521-4f50-97a5-89a0172e05dd")
+	)
+	(wire
+		(pts
+			(xy 77.47 40.64) (xy 90.17 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f3cd60-1613-42c5-a1c7-38a099298b7f")
+	)
+	(wire
+		(pts
+			(xy 58.42 62.23) (xy 58.42 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84daa988-0f1c-4080-906a-a6e74b888418")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 86.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95800e3f-073b-4458-b1c3-6675a363e93c")
+	)
+	(wire
+		(pts
+			(xy 63.5 62.23) (xy 63.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afecfd2b-6e10-404c-8bec-7e6e07312b18")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da603670-31d2-4036-ab67-3c7fac56be50")
+	)
+	(wire
+		(pts
+			(xy 77.47 29.21) (xy 90.17 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0da67d-7cee-4fca-bc7e-22777dc74125")
+	)
+	(wire
+		(pts
+			(xy 83.82 80.01) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f8d8cf-b47f-46d8-ac52-dc41ca845dbb")
+	)
+	(wire
+		(pts
+			(xy 113.03 85.09) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef07d085-faa9-4e82-9697-6183dad7c9e0")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 90.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47dcba8-c1f4-47b5-89c7-698159aaf4b0")
+	)
+	(wire
+		(pts
+			(xy 113.03 77.47) (xy 113.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad81563-87da-4405-8fc4-cc2927c27349")
+	)
+	(wire
+		(pts
+			(xy 86.36 77.47) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcc23ab-f964-4e24-8054-d472a192d822")
+	)
+	(wire
+		(pts
+			(xy 110.49 80.01) (xy 110.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdcd870f-e87f-4859-90c5-073bf907f5d8")
+	)
+	(label "I2C.SDA"
+		(at 63.5 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5086e83a-683d-44ad-abd0-9be5cecab750")
+	)
+	(label "I2C.SCL"
+		(at 58.42 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c17440c6-f5d5-4c10-8fd7-1caf2937f595")
+	)
+	(label "I2C.SDA"
+		(at 63.5 74.93 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1c89995-3aab-4b72-b9c2-edf1fd03954b")
+	)
+	(label "I2C.SCL"
+		(at 58.42 74.93 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8a87397-2941-48d7-ae0e-3dd6f24d2608")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 205.9283 55.3162 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f0fcbf9-2ff4-4c04-b3ea-7092fe917646")
+		(property "Reference" "H2"
+			(at 208.4683 54.0461 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 208.4683 56.5861 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 205.9283 55.3162 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.9283 55.3162 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 205.9283 55.3162 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 205.9283 55.3162 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 205.9283 55.3162 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Schematic_and_pcb"
+				(path "/77dd31a3-b022-4ccc-b345-d329c750079c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 206.2178 63.4717 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a4a8811-4a8e-4b1a-8ae2-901af7272b64")
+		(property "Reference" "H3"
+			(at 208.7578 62.2016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 208.7578 64.7416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 206.2178 63.4717 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.2178 63.4717 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 206.2178 63.4717 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 206.2178 63.4717 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 206.2178 63.4717 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Schematic_and_pcb"
+				(path "/77dd31a3-b022-4ccc-b345-d329c750079c"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 204.47 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8428ad43-7521-453c-a28d-f8d34f54cde6")
+		(property "Reference" "H1"
+			(at 207.01 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 207.01 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Schematic_and_pcb"
+				(path "/77dd31a3-b022-4ccc-b345-d329c750079c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 15.24)
+		(size 95.25 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "091fbfe7-57fe-4953-9bc7-2d8d0604d0fa")
+		(property "Sheetname" "Telemetry_Storage"
+			(at 90.17 14.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Telemetry_Storage_sch.kicad_sch"
+			(at 90.17 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPS_RX_MCU" output
+			(at 90.17 25.4 180)
+			(uuid "6ad929b1-5bf7-45c5-8f4d-e3ef47e617b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_TX_MCU" input
+			(at 90.17 29.21 180)
+			(uuid "e5489440-07d0-4533-ac1f-acf13261cd26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_CS" input
+			(at 90.17 40.64 180)
+			(uuid "445ecc63-598d-491c-a4d0-2d6108d9b56d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIM_RX_MCU" output
+			(at 90.17 33.02 180)
+			(uuid "55806c5d-dcb5-41da-8b8e-c94847c7dcf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIM_TX_MCU" input
+			(at 90.17 36.83 180)
+			(uuid "5dcea8c5-2e01-412d-ada3-5b1c0b70e4b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 90.17 52.07 180)
+			(uuid "8421ee34-6227-43ac-b793-fe06a760eafa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 90.17 48.26 180)
+			(uuid "545996aa-dc17-4745-993c-ad3b3b19a544")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 90.17 44.45 180)
+			(uuid "0f7c2ed6-0b94-4c38-ab57-9b6a74eacef5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Schematic_and_pcb"
+				(path "/77dd31a3-b022-4ccc-b345-d329c750079c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 82.55)
+		(size 82.55 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "888e33a8-923f-48f7-a0dc-9ad99b0bc21e")
+		(property "Sheetname" "Power_Distribution"
+			(at 116.84 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Distribution_sch.kicad_sch"
+			(at 116.84 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GATE_CTRL" output
+			(at 116.84 88.9 180)
+			(uuid "41424466-53e2-45dd-88b7-c3cf47edce44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_ADC" input
+			(at 116.84 85.09 180)
+			(uuid "2d93a98e-14bb-4a1f-bc58-6f91e0db0528")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Schematic_and_pcb"
+				(path "/77dd31a3-b022-4ccc-b345-d329c750079c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 15.24)
+		(size 64.77 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c33a01be-a37e-41e4-a3ca-772080f37c4e")
+		(property "Sheetname" "MCU_Core"
+			(at 12.7 14.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Core_sch.kicad_sch"
+			(at 12.7 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DS18_DQ" bidirectional
+			(at 43.18 62.23 270)
+			(uuid "274cf8ad-1a20-44df-b7eb-cb1527d25110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GATE_CTRL" output
+			(at 77.47 60.96 0)
+			(uuid "6d76386c-184e-4162-8b9c-aeea59b0f75e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_RX_MCU" input
+			(at 77.47 25.4 0)
+			(uuid "7e32becb-453a-48bf-91f5-f8abebc07451")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_TX_MCU" output
+			(at 77.47 29.21 0)
+			(uuid "2e0db048-e729-4ba0-a119-f628d80a3843")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 58.42 62.23 270)
+			(uuid "4016551f-8f5d-4594-b060-3f13abf37e2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 63.5 62.23 270)
+			(uuid "b2c9a72f-72ab-4e6d-830a-1cddff526a56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_CS" output
+			(at 77.47 40.64 0)
+			(uuid "c2115f11-258e-47a7-be3a-18ed79a29815")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIM_RX_MCU" input
+			(at 77.47 33.02 0)
+			(uuid "586af80f-48a4-4785-b44e-c014961deead")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIM_TX_MCU" output
+			(at 77.47 36.83 0)
+			(uuid "d19edbbd-7eb0-499f-b158-fe569a740bbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 77.47 52.07 0)
+			(uuid "f8da18c9-ae26-4972-95a7-d471dead5476")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" output
+			(at 77.47 48.26 0)
+			(uuid "9bf1e34a-0591-4adb-9261-b784a7fda808")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" output
+			(at 77.47 44.45 0)
+			(uuid "d05d2792-77f9-45bf-ad3a-30ecc98efbc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_ADC" input
+			(at 77.47 57.15 0)
+			(uuid "e644cd2d-3e18-44e8-9e9d-a021d9051d8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Schematic_and_pcb"
+				(path "/77dd31a3-b022-4ccc-b345-d329c750079c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 82.55)
+		(size 90.17 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c4887326-e503-462a-9b4a-ef208021cfb9")
+		(property "Sheetname" "Sensors_RTC"
+			(at 13.97 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors_RTC_sch.kicad_sch"
+			(at 13.97 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DS18_DQ" bidirectional
+			(at 43.18 82.55 90)
+			(uuid "3b7548e4-bd52-4833-b179-545466bba995")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 58.42 82.55 90)
+			(uuid "70a94b08-8bd2-4c82-bd5b-e6524bbd1f3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 63.5 82.55 90)
+			(uuid "1bfc9947-2c03-491d-abda-ee11e8911ca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Schematic_and_pcb"
+				(path "/77dd31a3-b022-4ccc-b345-d329c750079c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

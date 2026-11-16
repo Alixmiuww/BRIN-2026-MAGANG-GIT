@@ -1,0 +1,30 @@
+** Drc report for Schematic_and_pcb.kicad_pcb **
+** Created on 2026-11-05T11:08:54 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 4 DRC violations **
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; error
+    @(143.7500 mm, 132.1000 mm): Footprint NEO-M8N_Module1
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; error
+    @(143.7500 mm, 132.1000 mm): Footprint NEO-M8N_Module1
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; error
+    @(143.7500 mm, 132.1000 mm): Footprint NEO-M8N_Module1
+[lib_footprint_mismatch]: Footprint 'Untitled' does not match copy in library 'GPS'
+    Local override; warning
+    @(143.7500 mm, 132.1000 mm): Footprint NEO-M8N_Module1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

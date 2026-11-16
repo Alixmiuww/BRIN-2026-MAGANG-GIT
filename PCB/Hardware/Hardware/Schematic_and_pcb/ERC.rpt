@@ -1,0 +1,29 @@
+ERC report (2026-10-30T16:57:30, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'MicroSD_Adapter' doesn't match copy in library 'Microsd_adapter'
+    ; warning
+    @(6250 mils, 4550 mils): Symbol MicroSD_Adapter1 [MicroSD_Adapter]
+[footprint_link_issues]: The current configuration does not include the footprint library 'INA219'
+    ; warning
+    @(6150 mils, 3250 mils): Symbol U2 [INA219]
+[footprint_link_issues]: The current configuration does not include the footprint library 'HT7333'
+    ; warning
+    @(6600 mils, 4750 mils): Symbol U3 [HT7333]
+
+***** Sheet /MCU_Core/
+
+***** Sheet /Power_Distribution/
+
+***** Sheet /Telemetry_Storage/
+
+***** Sheet /Sensors_RTC/
+
+ ** ERC messages: 3  Errors 0  Warnings 3
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
